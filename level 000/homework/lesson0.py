@@ -1,0 +1,88 @@
+from turtle import *
+
+# i want to draw a house
+
+#step1:   draw a square
+speed(10)
+width(7)
+color("purple")
+forward(200)
+left(90)
+forward(200)
+left(90)
+forward(200)
+left(90)
+forward(200)
+left(90)
+
+#step2 we draw a door
+
+forward(70)
+color("black")
+left(90)
+forward(120)
+right(90)
+forward(60)
+right(90)
+forward(120)
+penup()
+goto(200,200)
+pendown()
+
+#step 3 painting the roof
+
+color("brown")
+right(150)
+forward(200)
+left(120)
+forward(200)
+
+#step4 drawing a window 
+penup()
+goto(20,50)
+pendown()
+color("blue")
+right(240)
+forward(30)
+left(90)
+forward(70)
+left(90)
+forward(30)
+left(90)
+forward(70)
+left (90)
+forward(15)
+left(90)
+forward(70)
+penup()
+goto(35,85)
+pendown()
+right(90)
+forward(15)
+right(180)
+forward(30)
+
+#step 5 drawing a window 2
+
+penup()
+goto(150,50)
+pendown()
+right(90)
+forward(70)
+right(90)
+forward(30)
+right(90)
+forward(70)
+right(90)
+forward(30)
+right(180)
+forward(15)
+left(90)
+forward(70)
+left(180)
+forward(35)
+right(90)
+forward(15)
+right(180)
+forward(30)
+exitonclick()
