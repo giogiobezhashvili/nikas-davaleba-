@@ -70,20 +70,27 @@ print(15>5 and 20>10)
 print(10>5 and 5>10)
 print(5<4 and 5>4)
 
-# 4
-
-num1 = int(input("ჩაწერეთ რიცხვი: "))
-num2 = 50
-print(num1 > num2)
-
+#4
+num1 = 50
+num2 = int(input("ჩაწერეთ რიცხვი: "))
+if num2 > num1:
+    print("თქვენი რიცხვი მეტია ვიდრე ჩემი")
+else: 
+    print("თქვენი რიცხვი ნაკლებია ჩემსაზე")
 # 5 
 
 name1 = input("ჩაწერეთ თქვენი სახელი: ")
 name2 = "nika"
-print(name1 == name2 )
+if name1 == name2:
+    print("ჩვენ ერთნაირი სახელები გვაქვს")
+else:
+    print("ჩვენ განსხვავებული სახელები გვაქვს")
 
 # 6 
 
 age1 = int(input("ჩაწერეთ თქვენი ასაკი: "))
 age2 = 18
-print(age1 > age2)
+if age1 > age2:
+    print("თქვენი ასაკი მეტია 18-ზე")
+else:
+    print("თქვენი ასაკი ნაკლებია 18-ზე")
